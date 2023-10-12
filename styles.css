@@ -34,19 +34,21 @@ body{
 #homeP{
     font-size: 20px;
     line-height: 1.5;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: sans-serif;
     
 }
 
-#ramenP{
+#ramenP,#dumpP{
     font-size: 24px;
-    font-family: 'Fira Sans',
+    font-family:
         sans-serif;
     line-height: 1.5;
     text-align: left;
 }
 
-.ramen-link{
+
+
+.ramen-link,.dump-link{
     font-size: 15px;
     padding: 20px;
     background-color: #CC63AD;
@@ -54,4 +56,17 @@ body{
     color: black;
     text-align: left;
     border-radius: 10px;
+}
+
+.name{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Stardom',
+        sans-serif;
+}
+
+h2{
+    font-family: 'Stardom',
+        sans-serif;
+    font-size: 50px;
 }
