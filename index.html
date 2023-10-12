@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sakura Haus</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -24,7 +24,7 @@
   </head>
   <body>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Sakura</a>
           <button
@@ -41,16 +41,18 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Ramen</a>
+                <a class="nav-link" href="recipes/ramen.html">Ramen</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Dumplings</a>
+                <a class="nav-link" href="recipes/dumplings.html">Dumplings</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Sushi</a>
+                <a class="nav-link" href="recipes/sushi.html">Sushi</a>
               </li>
             </ul>
           </div>
@@ -84,7 +86,8 @@
       </div>
       <br />
       <br />
-      <h2>Dishes to Explore</h2>
+      <h2 class="border m-5 p-5">Dishes to Explore</h2>
+
       <br />
       <br />
       <div class="container">
@@ -139,23 +142,21 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <p id="dumpP" class="m-5">
-              <span class="name"> Soup Dumplings<br /></span>
-              Xiao long bao is a type of soup dumpling that originated in
-              Shanghai, China. Xiao long bao are made by wrapping thin dough
-              around a small amount of filling (usually pork-based) that
-              includes gelatinous stock, then pleating the dough to form a tight
-              seal. The dumplings are then steamed until cooked through.
-            </p>
-            <a class="dump-link" href="recipes/dumplings.html"
-              >Dumplings Recipe</a
-            >
-          </div>
-          <div class="col-sm-6">
             <img
               class="img-fluid m-5 shadow-lg"
-              src="images/Screenshot 2023-10-12 152711.png"
+              src="images/Screenshot 2023-10-12 153830.png"
             />
+          </div>
+          <div class="col-sm-6">
+            <p id="sushiP" class="m-5">
+              <span class="name"> Sushi<br /></span>
+              Sushi is a Japanese dish of prepared vinegared rice, usually with
+              some sugar and salt, accompanied by a variety of ingredients, such
+              as seafood — often raw — and vegetables. Styles of sushi and its
+              presentation vary widely, but the one key ingredient is "sushi
+              rice", also referred to as shari, or sumeshi.
+            </p>
+            <a class="sushi-link" href="recipes/sushi.html">Sushi Recipe</a>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    color: #371e2c;
    
 }
 
@@ -38,7 +39,7 @@ body{
     
 }
 
-#ramenP,#dumpP{
+#ramenP,#dumpP,#sushiP{
     font-size: 24px;
     font-family:
         sans-serif;
@@ -48,14 +49,36 @@ body{
 
 
 
-.ramen-link,.dump-link{
-    font-size: 15px;
+.ramen-link,.dump-link,.sushi-link{
+    font-size: 20px;
     padding: 20px;
     background-color: #CC63AD;
     text-decoration: none;
-    color: black;
+    color: white;
     text-align: left;
     border-radius: 10px;
+}
+
+.color{
+   color: #CC63AD;
+}
+
+.dump-link:hover{
+    background-color: white;
+    border: solid 2px #CC63AD;
+    color: #CC63AD;
+}
+
+.sushi-link:hover {
+    background-color: white;
+    border: solid 2px #CC63AD;
+    color: #CC63AD;
+}
+
+.ramen-link:hover {
+    background-color: white;
+    border: solid 2px #CC63AD;
+    color: #CC63AD;
 }
 
 .name{
@@ -68,5 +91,7 @@ body{
 h2{
     font-family: 'Stardom',
         sans-serif;
-    font-size: 50px;
+    font-size: 60px;
+    border-radius: 30px;
+   
 }
