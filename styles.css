@@ -1,7 +1,8 @@
 body{
     text-align: center;
     color: #371e2c;
-   
+    margin: 0 ;
+    padding: 0;
 }
 
 #home-img{
