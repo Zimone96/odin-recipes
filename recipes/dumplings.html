@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramen</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link href="../styles.css" rel="stylesheet" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=zodiak@400&f[]=chillax@400&f[]=stardom@400&f[]=boska@400&f[]=fira-sans@900&f[]=poppins@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sakura</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ramen.html">Ramen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="dumplings.html">Dumplings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sushi.html">Sushi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="whole-page" class="container-sm">
+      <h1 class="mt-5">
+        Homemade Soup Dumplings <br />
+        <span class="ramen-stars"> ⭐⭐⭐⭐⭐</span>
+      </h1>
+      <h3 class="r-intro">
+        An easier Xiao Long Bao recipe that teaches you how to use commonly
+        found ingredients to create restaurant-quality soup dumplings in your
+        own kitchen.
+      </h3>
+      <a
+        class="d-flex justify-content-center m-5"
+        id="ramen-r-link"
+        href="#dumpling-recipe"
+        >Jump to recipe</a
+      ><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              class="img-fluid rounded"
+              src="https://omnivorescookbook.com/wp-content/uploads/2021/02/210108_Soup-Dumplings_1.jpg"
+            />
+          </div>
+          <div class="col-sm-6">
+            <img
+              class="img-fluid rounded"
+              src="https://omnivorescookbook.com/wp-content/uploads/2021/02/210108_Soup-Dumplings_4.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <h3 class="ramenH3 mt-5 mb-5 p-3">
+        What are soup dumplings (Xiao Long Bao)
+      </h3>
+
+      <div class="container-sm border p-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="d-flex justify-content-left ramen-info m-5 p-5">
+              Xiao Long Bao (小笼包), or soup dumplings, are a type of steamed
+              dumpling from Shanghai cuisine (Jiangsu province for the greater
+              region). In China, you will find there are many versions of soup
+              dumplings that come in different flavors and sizes, but the most
+              popular one is Xiao Long Bao. It features a paper thin wrapper
+              filled with a very mild pork filling and a pocket of fragrant
+              soup, served with a gingery vinegar dipping sauce. Xiao Long Bao
+              is a type of dim sum that is traditionally enjoyed as a snack or
+              during a meal as an appetizer or even a main dish. It’s certainly
+              a complicated dish to make at home. But it’s such a great way to
+              impress your guests if you’re hosting a dinner party.
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <img
+              class="img-fluid m-5 p-5"
+              src="https://omnivorescookbook.com/wp-content/uploads/2021/02/210108_Soup-Dumplings_3.jpg"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container-sm border pt-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3 class="ramenH3 p-3">
+              Ingredients you will need for this recipe
+            </h3>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="firstCheckbox"
+                />
+                <label class="form-check-label" for="firstCheckbox"
+                  >Jelly Broth</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="secondCheckbox"
+                />
+                <label class="form-check-label" for="secondCheckbox"
+                  >Wrappers</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >1 tablespoon grated ginger</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >8 oz (220 g) fatty ground pork</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >1 tablespoon light soy sauce</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >4 teaspoons Shaoxing wine (or dry sherry)</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >1/4 teaspoon salt</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >1/4 teaspoon sugar</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >1/8 teaspoon white pepper</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >4 green onions , finely minced</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >Dipping sauce</label
+                >
+              </li>
+            </ul>
+            <br /><br />
+            <p id="buns" class="border p-3 text-center">
+              Making the buns<br />
+            </p>
+
+            <hr />
+            <p>
+              📌Line a steamer rack with napa cabbage leaves or prepare some
+              square parchment paper for steaming the dumplings.<br />
+            </p>
+
+            <hr />
+            <p>
+              📌Take out the wrappers and cover them with a few layers of wet
+              paper towels to prevent them from drying out.<br />
+            </p>
+
+            <hr />
+            <p>
+              📌Work on the buns one at a time. Shape one piece of dough with
+              your fingers so it is a round piece, then flatten it with your
+              palm. Use a small rolling pin to roll out the wrapper, spinning
+              the dough after rolling a few times. Roll until the wrapper is
+              very thin, about 4 1/2” (11 cm) in diameter.<br />
+            </p>
+            <hr />
+            <p>
+              📌Place 22 g (about 1 tablespoon) of the filling onto the center
+              of the wrapper. Fold and pinch the edges of the wrapper to create
+              pleats (see the wrapping process in action in my cooking video).
+              When you are about to seal the pleats, leave a small opening on
+              the top of the dumplings<br />
+            </p>
+            <hr />
+            <p>
+              📌Place the wrapped dumplings onto the napa cabbage or parchment
+              paper. Cover loosely with a few layers of wet paper towels to
+              prevent drying out. Work on the rest of the dumplings until you
+              can fill the steamer rack – you should leave at least 2” (5 cm)
+              between the dumplings<br />
+            </p>
+            <hr />
+            <br />
+            <hr />
+            <br />
+          </div>
+          <div class="col-sm-6">
+            <div id="dumpling-recipe" class="ramen-recipe">
+              <h2 class="ramenH3 p-3">Quick home Made Ramen Recipe</h2>
+              <br />
+
+              <p>
+                Total Time: 1hour 30minutes<br />
+                Yields: 20 dumplings
+              </p>
+              <p>Instructions</p>
+              <div class="ra-re-instruct">
+                <p>
+                  📌 Add the grated ginger into a small bowl and pour in 1/4 cup
+                  hot water. Let sit while preparing other ingredients.<br />
+                </p>
+
+                <hr />
+                <p>
+                  📌The chicken broth you have should have become congealed with
+                  a layer of fat on top. Scrape off the fat and reserve it in a
+                  small bowl.<br />
+                </p>
+
+                <hr />
+                <p>
+                  📌Slice the chicken gelatin into thin strips, then further
+                  into small cubes. Coarsely mince it into bits.<br />
+                </p>
+
+                <hr />
+                <p>
+                  📌Measure the chopped gelatin. If it’s less than 4.4 oz (120
+                  g), add a few spoonfuls of the chicken fat until it reaches
+                  4.4 oz (120 g). You can discard or reserve the remaining
+                  chicken fat for future use. Store the gelatin in the fridge
+                  while not using.<br />
+                </p>
+                <hr />
+                <p>
+                  📌Add the ground pork into a medium-sized bowl. Add the ginger
+                  water, light soy sauce, Shaoxing wine, salt, sugar and white
+                  pepper. Beat with a spatula until the liquid is fully absorbed
+                  and the filling becomes sticky and bouncy, 5 minutes or so.<br />
+                </p>
+                <hr />
+                <p>
+                  📌Add the chopped chicken jelly and green onions. Mix until
+                  incorporated<br />
+                </p>
+                <hr />
+                <p>
+                  📌Cover the bowl with plastic wrap and store in the fridge
+                  until ready to use. The filling can be stored in the fridge
+                  for a couple of hours, but I do not recommend storing it for
+                  too much longer, because the liquid will start to seep out.<br />
+                </p>
+
+                <hr />
+                <br />
+                <p id="buns" class="border p-3 text-center">
+                  Cooking the Dumplings<br />
+                </p>
+
+                <hr />
+                <p>
+                  📌Prepare the dipping sauce by adding 1 tablespoon of Chinese
+                  vinegar and a few strips of ginger to each small sauce
+                  plate.<br />
+                </p>
+
+                <hr />
+                <p>
+                  📌Bring a pot of water to a boil over medium-high heat. Cover
+                  the steamer rack with a lid and place it over the boiling
+                  water. Steam over medium-high heat for 8 to 10 minutes,
+                  depending on the number of dumplings you cook at a time.<br />
+                </p>
+
+                <hr />
+                <p>
+                  📌Once done cooking, serve immediately with the dipping
+                  sauce.<br />
+                </p>
+                <hr />
+
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
