@@ -86,6 +86,9 @@ body{
     color: #CC63AD;
 }
 
+
+
+
 .name{
     text-align: center;
     font-size: 50px;
@@ -128,6 +131,18 @@ font-family: 'Stardom',
     text-decoration: none;
     border-radius: 40px;
     font-family: sans-serif;
+    
+}
+
+#home-link{
+        padding: 10px 100px 10px 100px;
+        font-size: 20px;
+        background-color: white;
+        color: #CC63AD;
+        text-decoration: none;
+        border-radius: 40px;
+        font-family: sans-serif;
+        border: solid 2px #CC63AD;
     
 }
 

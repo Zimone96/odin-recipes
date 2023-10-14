@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramen</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link href="../styles.css" rel="stylesheet" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=zodiak@400&f[]=chillax@400&f[]=stardom@400&f[]=boska@400&f[]=fira-sans@900&f[]=poppins@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sakura</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ramen.html">Ramen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dumplings.html">Dumplings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="sushi.html">Sushi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="whole-page" class="container-sm">
+      <h1 id="top" class="mt-5">
+        Homemade Sushi <br />
+        <span class="ramen-stars"> ⭐⭐⭐⭐⭐</span>
+      </h1>
+      <h3 class="r-intro">
+        Homemade Sushi is so much cheaper than at the restaurant. Plus, it’s
+        easy and fun to make your own rolls at home, so you can put all your
+        favorite ingredients into your perfect custom roll — here’s how!
+      </h3>
+      <a
+        class="d-flex justify-content-center m-5"
+        id="ramen-r-link"
+        href="#sushi-recipe"
+        >Jump to recipe</a
+      ><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              class="img-fluid rounded"
+              src="https://www.fifteenspatulas.com/wp-content/uploads/2016/06/Homemade-Sushi-2-640x959.jpg"
+            />
+          </div>
+          <div class="col-sm-6">
+            <img
+              class="img-fluid rounded"
+              src="https://minimalistbaker.com/wp-content/uploads/2013/10/20-Minute-Sushi-minimalistbaker.com_.jpg"
+            />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <h3 class="ramenH3 mt-5 mb-5 p-3">
+        The classic packaged Ramen, Re-imagined
+      </h3>
+
+      <div class="container-sm border p-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <p class="d-flex justify-content-left ramen-info m-5 p-5">
+              I’ll be very honest and say that there’s definitely a reason why
+              sushi chefs spend a decade learning how to perfect sushi rice or
+              cut raw fish like a boss, because it does make a difference.
+              Homemade sushi will never be at the level of what you’d get from
+              the top sushi restaurants in NYC, but here’s where homemade sushi
+              rolls win: You get to gorge yourself on a FEAST for like $20,
+              whereas a similar amount of food at a restaurant would cost a
+              couple hundred. Soooooo worth it, if you ask me.
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <img
+              class="img-fluid m-5 p-5"
+              src="https://www.fifteenspatulas.com/wp-content/uploads/2016/06/Homemade-Sushi-4-640x959.jpg"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container-sm border pt-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <h3 class="ramenH3 p-3">
+              Ingredients you will need for this recipe
+            </h3>
+            <p class="ms-2"><strong>For the rice</strong></p>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="firstCheckbox"
+                />
+                <label class="form-check-label" for="firstCheckbox"
+                  >300g sushi rice</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="secondCheckbox"
+                />
+                <label class="form-check-label" for="secondCheckbox"
+                  >100ml rice wine vinegar</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >2 tbsp golden caster sugar</label
+                >
+              </li>
+              <p class="pt-3 ms-2">
+                <strong>For the Japanese mayonnaise</strong>
+              </p>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >3 tbsp mayonnaise</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >1 tbsp rice wine vinegar</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >1 tsp soy sauce</label
+                >
+              </li>
+              <p class="pt-3 ms-2"><strong>For the sushi</strong></p>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >25g bag nori (seaweed) sheets</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >Smoked Salmon</label
+                >
+              </li>
+              <p class="pt-3 ms-2"><strong>Optional</strong></p>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >Wasabi</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >Pickled Ginger</label
+                >
+              </li>
+              <li class="list-group-item">
+                <input
+                  class="form-check-input me-1"
+                  type="checkbox"
+                  value=""
+                  id="thirdCheckbox"
+                />
+                <label class="form-check-label" for="thirdCheckbox"
+                  >Soy Sauce</label
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <div id="sushi-recipe" class="ramen-recipe">
+              <h2 class="ramenH3 p-3">Quick home Made Ramen Recipe</h2>
+              <br />
+
+              <p>
+                Total Time: 25 minutes<br />
+                Yields:6 servings
+              </p>
+              <p>Instructions</p>
+              <div class="ra-re-instruct">
+                <p>
+                  📌 Lay a nori sheet on the mat, shiny-side down. Dip your
+                  hands in the vinegared water, then pat handfuls of rice on top
+                  in a 1cm thick layer, leaving the furthest edge from you
+                  clear.<br />
+                </p>
+
+                <hr />
+                <p>
+                  📌 Use a spoon to spread out a thin layer of mayonnaise down
+                  the middle of the rice.<br />
+                </p>
+
+                <hr />
+                <p>
+                  📌Line out some Smoked Salmon, and Cucumber/Avo (Horizontally
+                  ontop of the rice)<br />
+                </p>
+
+                <hr />
+                <p>
+                  📌Lift the edge of the mat over the rice, applying a little
+                  pressure to keep everything in a tight roll.<br />
+                </p>
+                <hr />
+                <p>
+                  📌When you get to the edge without any rice, brush with a
+                  little water and continue to roll into a tight roll.<br />
+                </p>
+                <hr />
+                <p>
+                  📌 Remove the mat and roll tightly in cling film, cut the
+                  sushi into thick slices, then unravel the cling film.<br />
+                </p>
+
+                <hr />
+                <br />
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mt-5">
+            <a class="m-2" id="ramen-r-link" href="#top">Back to top</a
+            ><a class="m-2" id="home-link" href="../index.html">Home-page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
