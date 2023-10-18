@@ -141,18 +141,26 @@ font-family: 'Stardom',
     padding: 10px 60px 10px 60px;
 }
 
-
+#ramen-r-link{
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+    background-color: #CC63AD;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    font-family: sans-serif;
     
+}
 
-
-#home-link,#ramen-r-link{
+#home-link,#top-link{
+        
         font-size: 20px;
-       
+        
         color: #CC63AD;
-        text-decoration: none;
-        font-family: sans-serif;
         text-decoration: underline;
-    
+        
+        font-family: sans-serif;
+        
     
 }
 
