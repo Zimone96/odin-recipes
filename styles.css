@@ -1,7 +1,26 @@
+@media (max-width:600px){
+    #ramenP, #dumpP,#sushiP, .ramen-info{
+text-align: center;
+
+
+font-size: 2px;
+    }
+img{
+    max-width: 100%;
+    height: auto;
+}
+#ramen-r-link,#home-link{
+    font-size: 10px;
+}
+}
+
+
+
 body{
     text-align: center;
     color: #371e2c;
-    margin: 0;
+    margin-right: 0;
+    padding: 0;
 
 }
 
