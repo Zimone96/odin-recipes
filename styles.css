@@ -65,6 +65,11 @@ body{
         sans-serif;
     line-height: 1.5;
     text-align: left;
+    
+}
+
+img{
+    margin-bottom: 0;
 }
 
 
@@ -164,7 +169,6 @@ font-family: 'Stardom',
 .ramen-info{
     font-size: 19px;
     font-family: sans-serif;
-    margin-top: 200px;
     text-align: left;
     line-height: 1.5;
 
@@ -175,7 +179,7 @@ font-family: 'Stardom',
     font-size: 20px;
         font-family: 'Stardom',
             sans-serif; 
-        margin-top: 80px;
+        
         text-align: left;
         
 }
