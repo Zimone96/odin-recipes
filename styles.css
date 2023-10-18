@@ -1,8 +1,6 @@
 @media (max-width:600px){
     #ramenP, #dumpP,#sushiP, .ramen-info{
 text-align: center;
-
-
 font-size: 2px;
     }
 img{
@@ -10,8 +8,8 @@ img{
     height: auto;
 }
 #ramen-r-link,#home-link{
-    font-size: 10px;
-    padding: 10px 10px 10px 10px;
+    font-size: 5px;
+    padding: auto;
 }
 }
 
