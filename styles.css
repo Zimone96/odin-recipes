@@ -1,4 +1,4 @@
-@media (max-width:600px){
+@media (max-width:400px){
     #ramenP, #dumpP,#sushiP, .ramen-info{
 text-align: center;
 font-size: 2px;
@@ -142,7 +142,7 @@ font-family: 'Stardom',
 }
 
 #ramen-r-link{
-    padding: 10px 100px 10px 100px;
+    padding: 10px 50px 10px 50px;
     font-size: 20px;
     background-color: #CC63AD;
     color: white;
@@ -153,7 +153,7 @@ font-family: 'Stardom',
 }
 
 #home-link{
-        padding: 10px 100px 10px 100px;
+        padding: 10px 50px 10px 50px;
         font-size: 20px;
         background-color: white;
         color: #CC63AD;
